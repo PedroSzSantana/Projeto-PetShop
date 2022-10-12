@@ -1,0 +1,45 @@
+
+header{
+    background-color:rgb(69, 24, 124);
+    color: white;
+}
+.nav-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.img-logo{
+    width: 200px;
+}
+.div-nav-busca {
+    display: inline-flex;
+    height: 40px; 
+}
+.img-lupa {
+    height: 30px;
+}
+.input-lupa {
+    width: 350px;
+    padding: 8px;
+}
+.div-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.img-login {
+    margin-top: 10px;
+    width: 40px;
+}
+.link-header-txt {
+    margin-left: 10px;
+    color: white;
+    text-decoration: none;
+}
+.link-header-effect:hover {
+    text-underline-offset: 3px;
+    text-decoration: underline 2px black;
+}
+.img-car {
+    width: 40px;
+}
